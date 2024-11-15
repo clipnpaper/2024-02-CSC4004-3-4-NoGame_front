@@ -1,7 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './YouthRecommendation.css';
 
 function YouthRecommendation() {
+    const navigate = useNavigate();
+
+    const goToCustomPolicySearch = () => {
+        navigate('/custom-policy-search');
+    };
+
     return (
         <div className="recommendation-container">
             <header className="recommendation-header">
@@ -12,7 +19,7 @@ function YouthRecommendation() {
         </span>
             </header>
 
-            <div className="search-bar"> {/* This is the placeholder for the search bar */}
+            <div className="search-bar">
                 <input type="text" placeholder="검색어를 입력하세요..." disabled />
             </div>
 
@@ -23,13 +30,12 @@ function YouthRecommendation() {
 
             <div className="button-group">
                 <button>정책 평가하기</button>
-                <button>맞춤 정책찾기</button>
+                <button onClick={goToCustomPolicySearch}>맞춤 정책찾기</button>
                 <button>정책 제안하기</button>
                 <button>정책 목록보기</button>
             </div>
 
             <div className="card-container">
-                {/* Repeat these card elements as needed */}
                 <div className="card">
                     <h4>[경기] 경기 청년 갤러리</h4>
                     <p>#모집마감 #프로젝트지원 #경기 #19~34</p>
@@ -40,7 +46,7 @@ function YouthRecommendation() {
                     <p>#주택지원 #강남 #33층 #문정동</p>
                     <p>참가자 수: 3845 • 관심: 132 • 별점: ★1.9 (309)</p>
                 </div>
-                {/* Add more cards here */}
+                {/* Example cards go here */}
             </div>
         </div>
     );

@@ -1,0 +1,97 @@
+.custom-policy-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    height: 100vh;
+}
+
+.custom-policy-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #888;
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.input-group {
+    margin-top: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.tags, .details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag, .detail {
+    padding: 5px 10px;
+    border-radius: 12px;
+    background-color: #ddd;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.tag.selected, .detail.selected {
+    background-color: #6b4eff;
+    color: white;
+}
+
+.complete-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6b4eff;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.radio-label input {
+    margin-right: 5px;
+}
+
+.radio-label input:checked + span {
+    font-weight: bold;
+    color: #6b4eff;
+}
