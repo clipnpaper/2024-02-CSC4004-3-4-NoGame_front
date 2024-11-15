@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0146c4cf-4a43-4df8-b0cc-924a2d187e34" name="Changes" comment="" />
+    <list default="true" id="0146c4cf-4a43-4df8-b0cc-924a2d187e34" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Front/src/Start.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front/src/Start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/YouthResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/YouthResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +46,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "C:/Users/werty/Documents/GitHub/2024-02-CSC4004-3-4-NoGame_front/Front/node_modules/react-scripts",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731650651489</updated>
-      <workItem from="1731650653028" duration="5312000" />
+      <workItem from="1731650653028" duration="12867000" />
     </task>
     <servers />
   </component>
