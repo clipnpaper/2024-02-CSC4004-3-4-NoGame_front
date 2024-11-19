@@ -1,0 +1,76 @@
+.recommendation-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.recommendation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #444;
+}
+
+.time, .title, .icons {
+    flex: 1;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.greeting {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.button-group button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #d1d1d1;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    font-size: 16px;
+    color: #555;
+}
