@@ -36,12 +36,10 @@ function YouthRecommendation() {
             </div>
 
             <div className="card-container">
-                <div className="card">
                     <h4>[경기] 경기 청년 갤러리</h4>
                     <p>#모집마감 #프로젝트지원 #경기 #19~34</p>
                     <p>참가자 수: 3845 • 관심: 132 • 별점: ★1.9 (309)</p>
                 </div>
-                <div className="card">
                     <h4>[강남] 청년행복임대주택</h4>
                     <p>#주택지원 #강남 #33층 #문정동</p>
                     <p>참가자 수: 3845 • 관심: 132 • 별점: ★1.9 (309)</p>
