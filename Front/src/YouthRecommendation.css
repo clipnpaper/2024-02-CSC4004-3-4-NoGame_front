@@ -1,0 +1,123 @@
+.recommendation-container {
+    width: 375px;
+    height: 812px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time, .title, .icons {
+    flex: 1;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 100%;
+    height: 200%;
+    border: 1px solid #ddd;
+}
+
+.greeting {
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.greeting2 {
+    margin-top: 1px;
+    font-size: 15px;
+    text-align: center;
+    color: #333;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap; /* 버튼을 필요 시 다음 행으로 이동 */
+    gap: 0px; /* 버튼 간 간격 */
+    justify-content: space-between; /* 버튼 간의 간격 균일하게 */
+    width: 100%;
+}
+
+.button-group button {
+    border-color: #ffffff;
+    padding: 10px 10px; /* 버튼 크기를 넉넉하게 설정 */
+    border-radius: 20px;
+    background-color: #ddd;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1.2; /* 텍스트 줄 간격 */
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box; /* 패딩 포함 크기 조정 */
+    white-space: normal; /* 텍스트 줄바꿈 허용 */
+    word-wrap: break-word; /* 긴 텍스트도 잘리거나 넘치지 않도록 */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-group button:hover {
+    background-color: #eaeaea;/* 호버 시 색상 변경 */
+}
+
+.button-group button:active {
+    background-color: #6c63ff;
+    color: white;
+    border-color: #6c63ff;/* 클릭 시 색상 변경 */
+}
+
+/* 카드 컨테이너 스타일 */
+.card-container {
+    display: flex;
+    gap: 20px; /* 카드 간격 */
+    flex-wrap: wrap; /* 줄 바꿈 허용 */
+    justify-content: space-between;
+}
+
+/* 개별 카드 스타일 */
+.card {
+    margin-top: 10px;
+    width: calc(50% - 10px); /* 카드 크기 조정 */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.card-footer {
+    padding: 10px;
+    text-align: right;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}

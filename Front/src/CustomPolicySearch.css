@@ -1,0 +1,145 @@
+.custom-policy-container {
+    width: 375px;
+    height: auto;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-policy-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #888;
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.input-group {
+    margin-top: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.tags, .details, .radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start; /* Align buttons to the start */
+}
+
+.tag, .detail, .radio-button {
+    padding: 10px 10px;
+    border-radius: 12px;
+    background-color: #ddd;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap; /* Ensure button text does not overflow */
+}
+
+.tag.selected, .detail.selected, .radio-button.selected {
+    background-color: #6b4eff;
+    color: white;
+}
+
+.radio-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.radio-button:hover {
+    background-color: #eaeaea;
+}
+
+.radio-button.selected {
+    background-color: #6c63ff;
+    color: white;
+    border-color: #6c63ff;
+}
+
+.complete-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6b4eff;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* result  */
+
+/* 카드 컨테이너 스타일 */
+.card-container {
+    display: flex;
+    gap: 20px; /* 카드 간격 */
+    flex-wrap: wrap; /* 줄 바꿈 허용 */
+    justify-content: space-between;
+}
+
+/* 개별 카드 스타일 */
+.card {
+    margin-top: 10px;
+    width: calc(50% - 10px); /* 카드 크기 조정 */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.card-footer {
+    padding: 10px;
+    text-align: right;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}

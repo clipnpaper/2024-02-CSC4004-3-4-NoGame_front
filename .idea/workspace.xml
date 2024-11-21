@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0146c4cf-4a43-4df8-b0cc-924a2d187e34" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Front/src/CustomPolicySearchResult..js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/public/images/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/images/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/public/images/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/images/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/CustomPolicySearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/CustomPolicySearch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/CustomPolicySearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/CustomPolicySearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/PolicyDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/PolicyDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/YouthRecommendation.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/YouthRecommendation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/YouthRecommendation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/YouthRecommendation.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2osG0sKk7q9LyUDRsJRlDvusnpU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Jest.renders learn react link.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.11.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.9.0&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Users/werty/Documents/GitHub/2024-02-CSC4004-3-4-NoGame_front/Front/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\김현준\IdeaProjects\2024-02-CSC4004-3-4-NoGame_front\Front\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.renders learn react link">
+    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/Front/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/Front" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/Front/src/App.test.js" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="App.js" type="NodeJSConfigurationType" path-to-node="$APPLICATION_CONFIG_DIR$/node/versions/23.2.0/node" nameIsGenerated="true" path-to-js-file="App.js" working-dir="$PROJECT_DIR$/Front/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.renders learn react link" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0146c4cf-4a43-4df8-b0cc-924a2d187e34" name="Changes" comment="" />
+      <created>1731650651489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731650651489</updated>
+      <workItem from="1731650653028" duration="12867000" />
+      <workItem from="1732110661861" duration="3750000" />
+      <workItem from="1732169367002" duration="992000" />
+      <workItem from="1732170941210" duration="11482000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Front/src/PolicyDetail.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
