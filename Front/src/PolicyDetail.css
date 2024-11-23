@@ -1,6 +1,6 @@
 .policy-detail-container {
     width: 375px;
-    height: auto;
+    height: 812px; /* 스마트폰 화면 크기 */
     border: 1px solid #e0e0e0;
     background-color: white;
     display: flex;
@@ -8,6 +8,9 @@
     align-items: center;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* 스크롤 가능하도록 추가 */
+    scrollbar-width: thin;
+    scrollbar-color: #e0e0e0 transparent; /* 스크롤 색상 */
 }
 
 .policy-header h1 {
@@ -15,6 +18,7 @@
     font-size: 22px;
     color: #333;
     margin-bottom: 20px;
+    word-wrap: break-word; /* 긴 텍스트 줄바꿈 */
 }
 
 .policy-content {
@@ -23,6 +27,7 @@
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
+    text-align: center; /* 내용 가운데 정렬 */
 }
 
 .policy-content h2 {
@@ -41,6 +46,7 @@
 .like-view-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
     background-color: #f4f4f4;
     border-radius: 12px;
@@ -59,7 +65,7 @@
 
 .stars {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* 별 가운데 정렬 */
     margin-bottom: 10px;
 }
 
@@ -97,4 +103,18 @@
     padding: 10px;
     margin-bottom: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 스크롤바 스타일 (크롬 전용) */
+.policy-detail-container::-webkit-scrollbar {
+    width: 8px; /* 스크롤바 폭 */
+}
+
+.policy-detail-container::-webkit-scrollbar-thumb {
+    background-color: #e0e0e0; /* 스크롤바 색상 */
+    border-radius: 10px;
+}
+
+.policy-detail-container::-webkit-scrollbar-track {
+    background-color: transparent;
 }

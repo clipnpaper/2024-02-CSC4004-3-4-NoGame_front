@@ -5,23 +5,24 @@ import YouthRecommendation from './YouthRecommendation';
 import CustomPolicySearch from './CustomPolicySearch';
 import Login from './Login';
 import Start from './Start';
-import PolicyDetail from "./PolicyDetail";
-import CustomPolicySearchResult from "./CustomPolicySearchResult.";
+import PolicyDetail from './PolicyDetail';
+import CustomPolicySearchResult from './CustomPolicySearchResult';
+import EvaluatingPolicySearchResult from './EvaluatingPolicySearchResult';
+import FilterButtons from './FilterButtons'; // 버튼 그룹 추가
 
 function App() {
     return (
         <Router>
             <Routes>
-
-                <Route path="/" element={<Start />} />
-                <Route path="/Login" element={<Login />} />
-                <Route path="/YouthResponse" element={<YouthResponse />} />
-
-                <Route path="/recommendation" element={<YouthRecommendation />} />
-                <Route path="/custom-policy-search" element={<CustomPolicySearch />} />
-                <Route path="/PolicyDetail" element={<PolicyDetail />} />
-                {/* 결과 화면 */}
-                <Route path="/results" element={<CustomPolicySearchResult />} />
+                <Route path="/ " element={<Start />} />{/* 시작 로고창1 */}
+                <Route path="/Login" element={<Login />} /> {/* 카카오 로그인 */}
+                <Route path="/YouthResponse" element={<YouthResponse />} /> {/* 로고창2 */}
+                <Route path="/recommendation" element={<YouthRecommendation />} /> {/* 홈페이지 */}
+                <Route path="/custom-policy-search" element={<CustomPolicySearch />} /> {/* 필터링 */}
+                <Route path="/PolicyDetail" element={<PolicyDetail />} />{/* 정책 게시글 */}
+                <Route path="/CustomSearchResults" element={<CustomPolicySearchResult />} /> {/* 맞춤 정책 검색결과 */}
+                <Route path="/Evaluatingresults" element={<EvaluatingPolicySearchResult />} /> {/* 정책 평가 결과 */}
+                <Route path="/Filter" element={<FilterButtons />} />
             </Routes>
         </Router>
     );

@@ -1,13 +1,10 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './YouthRecommendation.css';
+import FilterButtons from './FilterButtons';
 
 function YouthRecommendation() {
     const navigate = useNavigate();
-
-    const goToCustomPolicySearch = () => {
-        navigate('/custom-policy-search');
-    };
 
     const goToPolicyDetail = (policyId) => {
         navigate(`/policy-detail/${policyId}`);
@@ -36,10 +33,8 @@ function YouthRecommendation() {
 
 
             <div className="button-group">
-                <button>정책 평가하기</button>
-                <button onClick={goToCustomPolicySearch}>맞춤 정책찾기</button>
-                <button>정책 제안하기</button>
-                <button>정책 목록보기</button>
+                {/* 각 버튼에 고유 경로 지정 */}
+                <FilterButtons /> {/* 버튼 그룹 컴포넌트를 재사용 */}
             </div>
 
             {/* 카드 컨테이너 */}

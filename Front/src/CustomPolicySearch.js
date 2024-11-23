@@ -26,7 +26,7 @@ function CustomPolicySearch() {
     };
 
     const handleSubmit = () => {
-        navigate('/results', {
+        navigate('/CustomSearchResults', {
             state: {
                 selectedGroup,
                 selectedDetail,
@@ -36,7 +36,7 @@ function CustomPolicySearch() {
     };
 
     return (
-        <div className="custom-policy-container">
+        <div className="evaluating-policy-container">
             <header className="custom-policy-header">
                 <span className="time">9:41</span>
                 <span className="title">맞춤 정책찾기</span>
