@@ -16,6 +16,7 @@ function App() {
                 <Route path="/" element={<Start />} />
                 <Route path="/Login" element={<Login />} />
                 <Route path="/YouthResponse" element={<YouthResponse />} />
+
                 <Route path="/recommendation" element={<YouthRecommendation />} />
                 <Route path="/custom-policy-search" element={<CustomPolicySearch />} />
                 <Route path="/PolicyDetail" element={<PolicyDetail />} />
