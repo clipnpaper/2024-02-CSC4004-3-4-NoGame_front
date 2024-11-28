@@ -1,0 +1,94 @@
+.policy-proposal-container {
+    width: 100%;
+    max-width: 375px; /* 모바일 화면 너비 */
+    margin: 0 auto; /* 가운데 정렬 */
+    padding: 20px;
+    background-color: #f9f9f9;
+    height: 812px; /* 모바일 화면 높이 */
+    overflow-y: auto; /* 스크롤 가능 */
+    font-family: Arial, sans-serif;
+}
+
+/* 헤더 스타일 */
+.policy-proposal-container header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.policy-proposal-container header button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6c63ff;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.policy-proposal-container header button:hover {
+    color: #4a3fb0;
+}
+
+/* 카테고리 선택 */
+.policy-proposal-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #333;
+}
+
+/* 집단 선택 버튼 */
+.group-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.group-buttons button {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.group-buttons button.selected {
+    background-color: #6c63ff;
+    color: white;
+}
+
+.group-buttons button:hover {
+    background-color: #d0d0ff;
+}
+
+/* 완료 버튼 */
+.complete-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.complete-button:hover {
+    background-color: #4a3fb0;
+}

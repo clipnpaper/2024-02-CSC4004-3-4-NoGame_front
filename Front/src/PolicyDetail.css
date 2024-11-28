@@ -1,4 +1,5 @@
 .policy-detail-container {
+<<<<<<< Updated upstream
     padding: 20px;
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
@@ -16,24 +17,41 @@
 
 .policy-content {
     background-color: #ffffff;
+=======
+    width: 375px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+>>>>>>> Stashed changes
     border-radius: 12px;
-    padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+<<<<<<< Updated upstream
     margin-bottom: 15px;
+=======
+    text-align: center;
+>>>>>>> Stashed changes
 }
 
-.policy-content h2 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #444;
-    margin-bottom: 10px;
+.policy-detail-container h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
 }
 
-.policy-content p {
+.policy-detail-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.policy-detail-container p {
     font-size: 16px;
     color: #555;
     margin-bottom: 15px;
 }
+<<<<<<< Updated upstream
 
 .like-view-section {
     display: flex;
@@ -95,3 +113,5 @@
     margin-bottom: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+=======
+>>>>>>> Stashed changes

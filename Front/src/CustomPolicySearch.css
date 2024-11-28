@@ -1,52 +1,72 @@
 .custom-policy-container {
+<<<<<<< Updated upstream
     display: flex;
     flex-direction: column;
     padding: 20px;
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
     height: 100vh;
+=======
+    width: 100%;
+    max-width: 375px; /* 모바일 화면 너비 */
+    margin: 0 auto; /* 가운데 정렬 */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    height: 812px; /* 모바일 전체 화면 높이 */
+    overflow-y: auto; /* 세로 스크롤 활성화 */
+>>>>>>> Stashed changes
 }
 
-.custom-policy-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-    color: #888;
-}
-
-.message {
+/* 헤더 스타일 */
+.custom-policy-header h1 {
+    font-size: 20px; /* 폰트 크기 조정 */
     text-align: center;
-    margin-top: 20px;
-    font-size: 16px;
-    color: #333;
+    margin-bottom: 20px;
 }
 
+/* 입력 그룹 */
 .input-group {
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .input-group label {
     display: block;
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 5px;
+    font-size: 14px; /* 폰트 크기 조정 */
+    margin-bottom: 8px;
 }
 
 .input-group select {
     width: 100%;
-    padding: 8px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 14px; /* 폰트 크기 조정 */
     border-radius: 8px;
     border: 1px solid #ddd;
 }
 
+<<<<<<< Updated upstream
 .tags, .details {
+=======
+/* 버튼 그룹 */
+.group-buttons,
+.feature-buttons {
+    margin-bottom: 20px;
+}
+
+.group-buttons p,
+.feature-buttons p {
+    font-size: 14px; /* 폰트 크기 조정 */
+    margin-bottom: 10px;
+}
+
+.buttons {
+>>>>>>> Stashed changes
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
+<<<<<<< Updated upstream
 .tag, .detail {
     padding: 5px 10px;
     border-radius: 12px;
@@ -60,18 +80,76 @@
     color: white;
 }
 
-.complete-button {
-    margin-top: 30px;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    background-color: #6b4eff;
-    color: white;
+=======
+.group-button,
+.feature-button {
+    padding: 8px 12px; /* 버튼 크기 조정 */
+    font-size: 12px; /* 폰트 크기 조정 */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #f0f0f0;
     cursor: pointer;
-    width: 100%;
+    transition: background-color 0.3s, color 0.3s;
 }
 
+.group-button.selected,
+.feature-button.selected {
+    background-color: #6c63ff;
+    color: white;
+}
+
+/* 정책 리스트 */
+.policy-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* 카드 간격 */
+    justify-content: center;
+}
+
+/* 정책 카드 */
+.policy-card {
+    width: calc(50% - 10px); /* 2열 레이아웃 */
+    padding: 10px; /* 카드 내부 여백 */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.policy-card h3 {
+    font-size: 14px; /* 폰트 크기 조정 */
+    margin-bottom: 10px;
+}
+
+.policy-card p {
+    font-size: 12px; /* 본문 텍스트 크기 조정 */
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.policy-card img {
+    width: 100%;
+    height: auto; /* 이미지 크기 자동 조정 */
+    border-radius: 8px;
+}
+
+/* 완료 버튼 */
+>>>>>>> Stashed changes
+.complete-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px; /* 폰트 크기 조정 */
+    color: white;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+<<<<<<< Updated upstream
 .radio-group {
     display: flex;
     flex-wrap: wrap;
@@ -95,3 +173,37 @@
     font-weight: bold;
     color: #6b4eff;
 }
+=======
+.complete-button:hover {
+    background-color: #4a3fb0;
+}
+
+/* 스크롤 스타일 (크롬 전용) */
+.custom-policy-container::-webkit-scrollbar {
+    width: 8px; /* 스크롤바 너비 */
+}
+
+.custom-policy-container::-webkit-scrollbar-thumb {
+    background-color: #dcdcdc; /* 스크롤바 색상 */
+    border-radius: 10px;
+}
+
+.custom-policy-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* 모바일 화면 최적화 */
+@media screen and (max-width: 768px) {
+    .policy-card {
+        width: calc(48% - 10px); /* 작은 화면에서 카드 간격 */
+    }
+
+    .policy-card h3 {
+        font-size: 13px; /* 작은 화면에서 텍스트 크기 감소 */
+    }
+
+    .policy-card p {
+        font-size: 11px; /* 작은 화면에서 본문 크기 감소 */
+    }
+}
+>>>>>>> Stashed changes
