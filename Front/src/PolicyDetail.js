@@ -1,101 +1,81 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import './PolicyDetail.css';
 import PolicyData_Temp from "./PolicyData_Temp";
+
 // 정책 데이터 예시
-
-<<<<<<< Updated upstream
-function PolicyDetail() {
-    return (
-        <div className="policy-detail-container">
-            <header className="policy-header">
-                <h1>정책아이디어</h1>
-            </header>
-
-            <div className="policy-content">
-                <h2>대학생 전공책 바우처</h2>
-                <p>대상: 대학생</p>
-                <p>#대학생 #바우처 #학업지원</p>
-
-                <div>
-                    <h3>배경 및 필요성</h3>
-                    <p>대학생들은 학업을 위해 많은 비용을 지출해야 하며...</p>
-                </div>
-
-                <div>
-                    <h3>정책 목표</h3>
-                    <p>이 정책의 목표는 대학생들의 경제적 부담을 줄이고...</p>
-                </div>
-            </div>
-
-            <div className="like-view-section">
-                <span>❤️ 좋아요: 123</span>
-                <span>👁️ 조회수: 2348</span>
-            </div>
-
-            <div className="rating-container">
-                <div className="stars">
-                    <span className="star">★</span>
-                    <span className="star">★</span>
-                    <span className="star">★</span>
-                    <span className="star">★</span>
-                    <span className="star">☆</span>
-                </div>
-                <p>4.0 (3431)</p>
-                <button>참여하기</button>
-            </div>
-
-            <div className="comment-section">
-                <h3>평점과 한줄평</h3>
-                <div className="comment">좋은 정책입니다! 매우 유용할 것 같아요.</div>
-                <div className="comment">학생들에게 큰 도움이 될 것 같네요.</div>
-                <div className="comment">정책이 구체적이면 더 좋을 것 같아요.</div>
-            </div>
-
-            <div className="related-ideas">
-                <h3>관련 다른 아이디어</h3>
-                <div className="idea-card">
-                    <p>정부주도 전공책 공유 플랫폼</p>
-                    <span>#전공책</span>
-                </div>
-                <div className="idea-card">
-                    <p>지자체 도서관 전공책 필수 구비</p>
-                    <span>#전공책</span>
-                </div>
-            </div>
-=======
-const policyData = [
-    {
-        id: '1',
-        title: '청년 창업 지원 프로젝트',
-        description: '창업을 꿈꾸는 청년들을 위한 맞춤형 지원 프로그램입니다.',
-        details: '자세한 정책 내용과 신청 방법은 관련 부서에 문의하세요.',
-        image: '/images/placeholder1.png',
-    },
-    {
-        id: '2',
-        title: '주거 안정 지원',
-        description: '청년 임대주택과 관련된 주거 안정 정책입니다.',
-        details: '임대 지원과 신청 절차에 대해 더 알아보세요.',
-        image: '/images/placeholder2.png',
-    },
-    // 추가 정책 데이터...
-];
-
 const PolicyDetail = () => {
-    const { id } = useParams(); //  정책 ID 가져오기
+    const { id } = useParams(); // URL에서 정책 ID 가져오기
     const policy = PolicyData_Temp.find((item) => item.id === id);
 
     if (!policy) {
-        return <div>정책 정보를 찾을 수 없습니다. ㅅ1발</div>;
+        return <div className="error-message">정책 정보를 찾을 수 없습니다.</div>;
     }
 
     return (
         <div className="policy-detail-container">
-            <h1>{policy.title}</h1>
-            <img src={policy.image} alt={policy.title} className="policy-detail-image" />
-            <p>{policy.description}</p>
-            <p>{policy.details}</p>
->>>>>>> Stashed changes
+            <header className="policy-header">
+                <h1>{policy.title}</h1>
+            </header>
+
+            <img src={policy.image || '/images/placeholder.png'} alt={policy.title} className="policy-detail-image" />
+
+            <div className="policy-content">
+                <p className="description">{policy.description}</p>
+
+                <div>
+                    <h3>정책 상세 정보</h3>
+                    <p>{policy.details}</p>
+                </div>
+            </div>
+
+            {/* 좋아요 및 조회수 섹션 */}
+            <div className="like-view-section">
+                <span>❤️ 좋아요: {policy.likes || 0}</span>
+                <span>👁️ 조회수: {policy.views || 0}</span>
+            </div>
+
+            {/* 별점 섹션 */}
+            <div className="rating-container">
+                <div className="stars">
+                    {[...Array(5)].map((_, index) => (
+                        <span key={index} className="star">
+                            {index < (policy.rating || 0) ? '★' : '☆'}
+                        </span>
+                    ))}
+                </div>
+                <p>{policy.rating || '0.0'} ({policy.reviews || 0}명)</p>
+                <button className="participate-button">참여하기</button>
+            </div>
+
+            {/* 댓글 섹션 */}
+            <div className="comment-section">
+                <h3>평점과 한줄평</h3>
+                {policy.comments && policy.comments.length > 0 ? (
+                    policy.comments.map((comment, index) => (
+                        <div key={index} className="comment">
+                            {comment}
+                        </div>
+                    ))
+                ) : (
+                    <p>아직 한줄평이 없습니다.</p>
+                )}
+            </div>
+
+            {/* 관련 다른 아이디어 섹션 */}
+            <div className="related-ideas">
+                <h3>관련 다른 아이디어</h3>
+                {policy.relatedIdeas && policy.relatedIdeas.length > 0 ? (
+                    policy.relatedIdeas.map((idea, index) => (
+                        <div key={index} className="idea-card">
+                            <p>{idea.title}</p>
+                            <span>{idea.tags ? idea.tags.join(' ') : '#관련없음'}</span>
+                        </div>
+                    ))
+                ) : (
+                    <p>관련된 아이디어가 없습니다.</p>
+                )}
+            </div>
         </div>
     );
 };
