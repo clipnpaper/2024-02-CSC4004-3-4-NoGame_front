@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, {useState} from 'react';
 import './CustomPolicySearch.css';
+import {useNavigate} from "react-router-dom";
+
 
 const CustomPolicySearch = () => {
     const navigate = useNavigate();
@@ -35,17 +36,8 @@ const CustomPolicySearch = () => {
     return (
         <div className="custom-policy-container">
             <header className="custom-policy-header">
-                <span className="time">9:41</span>
-                <span className="title">맞춤 정책찾기</span>
-                <span className="icons">
-                    <span role="img" aria-label="battery">🔋</span>
-                </span>
+                <h1>맞춤 정책찾기</h1>
             </header>
-
-            <div className="message">
-                <p>맞춤 정책을 찾아드릴게요</p>
-                <p>걱정마세요. 지금 아무 선택 안해도 다시 설정할 수 있어요.</p>
-            </div>
 
             {/* 나이 선택 */}
             <div className="input-group">
@@ -67,13 +59,13 @@ const CustomPolicySearch = () => {
             </div>
 
             {/* 집단 버튼 */}
-            <div className="input-group">
+            <div className="group-buttons">
                 <p>소속되신 집단에 표시해주세요</p>
-                <div className="tags">
+                <div className="buttons">
                     {groups.map((group) => (
                         <button
                             key={group}
-                            className={`tag ${selectedGroup === group ? 'selected' : ''}`}
+                            className={`group-button ${selectedGroup === group ? 'selected' : ''}`}
                             onClick={() =>
                                 setSelectedGroup((prev) => (prev === group ? null : group))
                             }
@@ -104,13 +96,13 @@ const CustomPolicySearch = () => {
             </div>
 
             {/* 세부 기능 버튼 */}
-            <div className="input-group">
+            <div className="feature-buttons">
                 <p>세부기능을 표시해주세요</p>
-                <div className="tags">
+                <div className="buttons">
                     {features.map((feature) => (
                         <button
                             key={feature}
-                            className={`detail ${selectedFeature === feature ? 'selected' : ''}`}
+                            className={`feature-button ${selectedFeature === feature ? 'selected' : ''}`}
                             onClick={() =>
                                 setSelectedFeature((prev) => (prev === feature ? null : feature))
                             }

@@ -1,0 +1,17 @@
+{
+  "name": "2024-02-csc4004-3-4-nogame_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clipnpaper/2024-02-CSC4004-3-4-NoGame_front.git"
+  },
+  "private": true,
+  "dependencies": {
+    "react-router-dom": "^6.28.0"
+  }
+}

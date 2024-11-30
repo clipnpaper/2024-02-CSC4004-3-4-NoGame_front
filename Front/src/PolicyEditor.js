@@ -32,7 +32,7 @@ function PolicyEditor() {
             date: currentDate,
         };
         console.log('제안 저장:', policyProposal);
-        alert('정책이 저장되었습니다! 추후 백엔드로 연결될 예정입니다.');
+        alert('정책이 저장되었습니다!');
     };
 
     return (
