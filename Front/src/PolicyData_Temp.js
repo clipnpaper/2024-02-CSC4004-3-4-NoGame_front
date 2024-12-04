@@ -49,7 +49,7 @@ const PolicyData_Temp = [
         title: '취업연계 인턴 지원 소득',
         description: '2-3년제 대학 졸업생들 대상 인턴지원 프로그램',
         details: '기업의 인력 수요 조사를 바탕으로 이에 맞는 취업교육을 회사에 지원하고 임금에 보조금 지원',
-        image: '/images/placeholder5.png',
+        image: '/images/placeholder6.png',
         age: [20,21,22,23,24,25],
         category: '기본소득형',
     },

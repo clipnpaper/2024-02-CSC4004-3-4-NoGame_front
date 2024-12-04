@@ -43,24 +43,19 @@ function EvaluatingPolicySearchResult() {
             <div className="card-container">
                 {filteredPolicies.length > 0 ? (
                     filteredPolicies.map((policy) => (
-                        <div className="card" key={policy.id}
-                             onClick={() => goToPolicyDetail_Proposal(policy.id)}
-                        >
-                            <div className="card-header">
-                                <span>{policy.title}</span>
-                                <span>{policy.proposer || '익명'}</span>
-                            </div>
+                        <div className="card" key={policy.id} onClick={() => goToPolicyDetail_Proposal(policy.id)}>
+                            <div className="card-header">{policy.title || '제목 없음'}</div>
                             <img
-                                src={policy.image || '/images/placeholder.png'}
-                                alt={policy.title}
+                                src={policy.image || '/images/placeholder.png'} /* 기본 이미지 경로 */
+                                alt={policy.title || '이미지 없음'}
                                 className="card-image"
                             />
                             <div className="card-body">
-                                <p>{policy.description}</p>
-                                <p>제안 날짜: {policy.date}</p>
+                                <p>{policy.description || '설명이 없습니다.'}</p>
+                                <p>제안 날짜: {policy.date || '날짜 없음'}</p>
                             </div>
                             <div className="card-footer">
-                                <span>⭐ {policy.rating || 'N/A'} ({policy.likes || 0} likes)</span>
+                                ⭐ {policy.rating || 'N/A'} ({policy.likes || 0} likes)
                             </div>
                         </div>
                     ))
@@ -68,6 +63,7 @@ function EvaluatingPolicySearchResult() {
                     <p className="no-results">해당 조건에 맞는 정책이 없습니다.</p>
                 )}
             </div>
+
         </div>
     );
 }
