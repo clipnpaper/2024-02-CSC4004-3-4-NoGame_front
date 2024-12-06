@@ -48,15 +48,6 @@ function PolicyEditor() {
                 />
             </div>
             <div>
-                <h3>작성자 닉네임</h3>
-                <input
-                    type="text"
-                    value={nickname}
-                    onChange={(e) => setNickname(e.target.value)}
-                    placeholder="닉네임을 입력하세요."
-                />
-            </div>
-            <div>
                 <h3>작성 날짜</h3>
                 <p>{currentDate}</p>
             </div>

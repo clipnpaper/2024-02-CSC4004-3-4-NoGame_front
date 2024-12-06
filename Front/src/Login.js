@@ -18,7 +18,7 @@ function Login() {
                 카카오 로그인 외에는 로그인 방법이 없습니다.<br />1인 1계정을 원칙으로 합니다.
             </div>
             <button className="login-button" onClick={loginWithKakao}>
-                <img src="images/kakao-icon.png" alt="카카오 아이콘" />
+                <img src="images/kakao.png" alt="카카오 아이콘" />
                 카카오 로그인
             </button>
             <div className="terms">

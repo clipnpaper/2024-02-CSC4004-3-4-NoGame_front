@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './EvaluatingPolicySearchResult.css';
-import ProposedPolicyData from './PolicyData_proposaled'; // 제안된 정책 데이터 임포트
+import ProposedPolicyData from './PolicyData_proposaleded'; // 제안된 정책 데이터 임포트
 
 function EvaluatingPolicySearchResult() {
     const location = useLocation();
@@ -26,7 +26,7 @@ function EvaluatingPolicySearchResult() {
     return (
         <div className="evaluating-policy-container">
             <header className="evaluating-policy-header">
-                <span className="back-button" onClick={() => navigate('/')}>〈 정책목록</span>
+                <span className="back-button" onClick={() => navigate('/Recommendation')}>〈 정책목록</span>
                 <span className="title">맞춤설정 {'>'} 필터링 결과</span>
                 <span className="icons">
                     <span role="img" aria-label="filter">⚙️</span>
@@ -51,8 +51,8 @@ function EvaluatingPolicySearchResult() {
                                 className="card-image"
                             />
                             <div className="card-body">
-                                <p>{policy.description || '설명이 없습니다.'}</p>
-                                <p>제안 날짜: {policy.date || '날짜 없음'}</p>
+                                <p>{policy.description || ''}</p>
+                                <p>제안 날짜: {policy.date || '2024년 12월 4일'}</p>
                             </div>
                             <div className="card-footer">
                                 ⭐ {policy.rating || 'N/A'} ({policy.likes || 0} likes)

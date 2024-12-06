@@ -1,10 +1,10 @@
 .policy-detail-container {
+    padding-top: 70px; /* 헤더 높이(60px) + 안전 마진(10px) */
     width: 100%;
     max-width: 375px;
     margin: 0 auto;
-    padding: 20px;
     background-color: #fff;
-    overflow-y: auto;
+    position: relative;
 }
 
 .policy-header {
@@ -111,4 +111,102 @@
 .related-card p {
     font-size: 14px;
     margin-top: 10px;
+}
+
+/* 긍부정 지수 디자인 */
+.policy-score {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.policy-score p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    margin: 0;
+}
+
+.policy-score .positive {
+    color: #4caf50;
+}
+
+.policy-score .negative {
+    color: #f44336;
+}
+
+/* 댓글 리스트 스타일 */
+.policy-comments ul {
+    list-style: none;
+    padding: 0;
+}
+
+.policy-comments li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.policy-comments li p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.comment-author {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+    text-align: left; /* 작성자 이름을 왼쪽 정렬 */
+}
+
+/* 추천/비추천 버튼 스타일 */
+.comment-actions {
+    display: flex;
+    gap: 15px; /* 버튼 간 간격 */
+    margin-top: 10px;
+    justify-content: left; /* 버튼을 왼쪽 정렬 */
+}
+
+.comment-actions span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; /* 아이콘과 텍스트 간 간격 */
+    padding: 6px 12px;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.comment-actions .like-button {
+    background-color: #4caf50; /* 추천 버튼: 초록색 */
+}
+
+.comment-actions .like-button:hover {
+    background-color: #388e3c; /* 추천 버튼 호버 색상 */
+}
+
+.comment-actions .dislike-button {
+    background-color: #f44336; /* 비추천 버튼: 빨간색 */
+}
+
+.comment-actions .dislike-button:hover {
+    background-color: #d32f2f; /* 비추천 버튼 호버 색상 */
+}
+
+/* 버튼에 아이콘을 정렬 */
+.comment-actions span i {
+    font-size: 18px;
 }

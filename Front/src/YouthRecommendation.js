@@ -11,6 +11,13 @@ function YouthRecommendation() {
     const [searchQuery, setSearchQuery] = useState(''); // 검색어
     const [searchResults, setSearchResults] = useState([]); // 검색 결과
 
+    // 로그아웃 함수
+    const handleLogout = () => {
+        const kakaoLogoutUrl =
+            "https://kauth.kakao.com/oauth/logout?client_id=48fbbd944370c44ffd825a0a7ca01074&logout_redirect_uri=http://localhost:3000/Start";
+        window.location.href = kakaoLogoutUrl;
+    };
+
     // 상세 페이지로 이동
     const goToPolicyDetail = (policyId) => {
         navigate(`/PolicyDetail/${policyId}`);
@@ -61,6 +68,9 @@ function YouthRecommendation() {
                 <span className="icons">
                     <span role="img" aria-label="battery">🔋</span>
                 </span>
+                <button className="logout-button" onClick={handleLogout}>
+                    로그아웃
+                </button>
             </header>
 
             {/* 검색 바 */}
@@ -75,14 +85,14 @@ function YouthRecommendation() {
             </form>
 
             <div className="greeting">
-                <p>23세 대학생이신 청년님 안녕하세요❤️</p>
-            </div>
-            <div className="greeting2">
-                <p>해당 정보에 맞춰 추천되고 있어요.</p>
+                <p>26세 대학생이신 오상현님 안녕하세요❤️</p>
             </div>
 
             <div className="button-group">
-                <FilterButtons /> {/* 버튼 그룹 컴포넌트 */}
+                <FilterButtons/> {/* 버튼 그룹 컴포넌트 */}
+            </div>
+            <div className="greeting2">
+                <p>상현님 카카오톡 정보에 맞춰 추천되고 있어요.</p>
             </div>
 
             {/* 검색 결과 또는 정책 카드 컨테이너 */}
@@ -94,7 +104,7 @@ function YouthRecommendation() {
                         onClick={() => goToPolicyDetail(policy.id)} // 정책 ID 전달
                     >
                         <div className="card-header">
-                            <span>{policy.region || '지역 정보 없음'}</span>
+                            <span>{policy.region || '수도권'}</span>
                             <span>{policy.title}</span>
                         </div>
                         <img
@@ -103,11 +113,11 @@ function YouthRecommendation() {
                             className="card-image"
                         />
                         <div className="card-body">
-                            <p>모집마감일: {policy.deadline || '정보 없음'}</p>
+                            <p>모집마감일: {policy.deadline || '서울시'}</p>
                             <p>{policy.description}</p>
                         </div>
                         <div className="card-footer">
-                            <span>⭐ {policy.rating || 'N/A'} ({policy.reviews || 0})</span>
+                            <span>⭐ {policy.rating || '0'} ({policy.reviews || 1})</span>
                         </div>
                     </div>
                 ))}

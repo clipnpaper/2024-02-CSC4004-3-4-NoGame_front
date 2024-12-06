@@ -4,29 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0146c4cf-4a43-4df8-b0cc-924a2d187e34" name="Changes" comment="Changes">
+    <list default="true" id="0146c4cf-4a43-4df8-b0cc-924a2d187e34" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/Front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/App.js" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/12.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/13.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/6.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/9.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/CustomPolicySearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/CustomPolicySearch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/CustomPolicySearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/CustomPolicySearch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/src/EvaluatingPolicySearchResult.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/EvaluatingPolicySearchResult.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/src/EvaluatingPolicySearchResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/EvaluatingPolicySearchResult.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyData_Temp.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyData_Temp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyData_proposaled.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyData_proposaled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/FilterButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/FilterButtons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/PolicyDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/PolicyDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/YouthRecommendation.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/YouthRecommendation.css" afterDir="false" />
+>>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/Front/src/YouthRecommendation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/YouthRecommendation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="package.json" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -43,30 +63,24 @@
     &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+<<<<<<< Updated upstream
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+=======
+    &quot;git-widget-placeholder&quot;: &quot;20241123&quot;,
+>>>>>>> Stashed changes
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.11.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.9.0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/김현준/IdeaProjects/2024-02-CSC4004-3-4-NoGame_front/Front/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs.jest.jest_package&quot;: &quot;C:/Users/werty/Documents/GitHub/2024-02-CSC4004-3-4-NoGame_front/Front/node_modules/react-scripts&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/김현준/AppData/Roaming/JetBrains/WebStorm2024.3/node/versions/20.18.1/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\김현준\IdeaProjects\2024-02-CSC4004-3-4-NoGame_front\Front\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\김현준\IdeaProjects\2024-02-CSC4004-3-4-NoGame_front\Front\src" />
-    </key>
-  </component>
   <component name="RunManager" selected="Jest.renders learn react link">
     <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -107,21 +121,15 @@
       <workItem from="1731650653028" duration="12867000" />
       <workItem from="1732110661861" duration="3750000" />
       <workItem from="1732169367002" duration="992000" />
-      <workItem from="1732170941210" duration="11482000" />
-      <workItem from="1732207746744" duration="103000" />
-      <workItem from="1732685398172" duration="25000" />
-      <workItem from="1732842269606" duration="12641000" />
-      <workItem from="1732863483626" duration="563000" />
-      <workItem from="1732865180819" duration="302000" />
-      <workItem from="1732868855689" duration="26000" />
-      <workItem from="1732869696788" duration="2501000" />
-      <workItem from="1732878585505" duration="99000" />
-      <workItem from="1732945208009" duration="2622000" />
-      <workItem from="1732961995890" duration="284000" />
-      <workItem from="1732962354620" duration="456000" />
-      <workItem from="1732962859589" duration="3759000" />
-      <workItem from="1733297032420" duration="28000" />
-      <workItem from="1733297096725" duration="2114000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1732350267885" duration="3261000" />
+      <workItem from="1732500882216" duration="246000" />
+      <workItem from="1732537602124" duration="21000" />
+      <workItem from="1732631344053" duration="5956000" />
+      <workItem from="1732757333195" duration="16465000" />
+      <workItem from="1732782043834" duration="11309000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -138,22 +146,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Front/src/PolicyDetail.js</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Front/src/EvaluatingPolicySearchResult.js</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
