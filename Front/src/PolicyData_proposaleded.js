@@ -1,3 +1,4 @@
+/*
 const PolicyDetail_Proposal = [
     {
         id: '1',
@@ -50,3 +51,31 @@ const PolicyDetail_Proposal = [
 ];
 
 export default PolicyDetail_Proposal;
+*/
+import { useState, useEffect } from 'react';
+import { fetchData } from './api';
+
+const usePolicyDetails = () => {
+    const [policies, setPolicies] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+
+    useEffect(() => {
+        const loadPolicies = async () => {
+            try {
+                const data = await fetchData('policy_ideas/'); // API 호출로 정책 데이터 가져오기
+                setPolicies(data);
+            } catch (err) {
+                setError(err.message);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        loadPolicies();
+    }, []);
+
+    return { policies, loading, error };
+};
+
+export default usePolicyDetails;
