@@ -10,7 +10,18 @@ function YouthRecommendation() {
     const [visibleCount, setVisibleCount] = useState(2); // 초기 표시할 정책 개수
     const [searchQuery, setSearchQuery] = useState(''); // 검색어
     const [searchResults, setSearchResults] = useState([]); // 검색 결과
+    const [username, setUsername] = useState(''); // 사용자 이름
 
+
+    // 사용자 이름 정보 가져오기
+    useEffect(() => {
+        const storedProfile = localStorage.getItem('profile');
+        if (storedProfile) {
+            const { name } = JSON.parse(storedProfile);
+            setUsername(name);
+        }
+    }, []);
+    
     // 로그아웃 함수
     const handleLogout = () => {
         const kakaoLogoutUrl =
@@ -85,7 +96,7 @@ function YouthRecommendation() {
             </form>
 
             <div className="greeting">
-                <p>26세 대학생이신 오상현님 안녕하세요❤️</p>
+                <p>26세 대학생이신 {username}님 안녕하세요❤️</p>
             </div>
 
             <div className="button-group">
