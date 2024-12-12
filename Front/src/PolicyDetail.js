@@ -89,11 +89,13 @@ const PolicyDetail = () => {
     return (
         <div className="policy-detail-container">
             <h1>{policy.title}</h1>
-            <img src={policy.image} alt={policy.content} className="policy-detail-image" />
+            <img src={policy.image} alt={policy.content} className="policy-detail-image"/>
             <p>{policy.created_at}</p>
             <p>{policy.description}</p>
             <p>{policy.details}</p>
             <p>{policy.ing}</p>
+            <p>한줄평 : 이거 진짜 좋은데요?</p>
+            <p>긍정 74 || 26 부정</p>
         </div>
     );
 };

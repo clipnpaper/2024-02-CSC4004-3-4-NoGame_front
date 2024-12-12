@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './YouthRecommendation.css';
-import PolicyData_Temp from './PolicyData_Temp'; // 정책 데이터 임포트
 import FilterButtons from './FilterButtons';
 import config from "./config";
 

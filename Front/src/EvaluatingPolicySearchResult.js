@@ -1,27 +1,49 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './EvaluatingPolicySearchResult.css';
-import ProposedPolicyData from './PolicyData_proposaleded'; // 제안된 정책 데이터 임포트
+import config from './config'; // Make sure this file exists for your API config
 
 function EvaluatingPolicySearchResult() {
     const location = useLocation();
     const navigate = useNavigate();
+    const [policies, setPolicies] = useState([]); // To store fetched policy data
+    const [filteredPolicies, setFilteredPolicies] = useState([]); // To store filtered policies after API fetch
 
     // 필터링 값 가져오기
     const { selectedGroup, selectedDetail, selectedAge, selectedPolicy } = location.state || {};
 
+    // 정책 상세 페이지로 이동
     const goToPolicyDetail_Proposal = (policyId) => {
         navigate(`/PolicyDetail_Proposal/${policyId}`);
     };
 
-    // 필터링 함수: 조건에 맞는 정책만 필터링
-    const filteredPolicies = ProposedPolicyData.filter((policy) => {
-        return (
-            (!selectedGroup || policy.groups.includes(selectedGroup)) && // 집단 필터
-            (!selectedDetail || policy.title.includes(selectedDetail)) && // 세부 필터
-            (!selectedPolicy || policy.category === selectedPolicy) // 카테고리 필터
-        );
-    });
+    // Fetch policy data from API
+    useEffect(() => {
+        const fetchPolicies = async () => {
+            try {
+                const response = await fetch(`${config.API_BASE_URL}/policyapp/`); // Update with your actual API endpoint
+                const data = await response.json();
+                setPolicies(data); // Set the fetched data as policies
+            } catch (error) {
+                console.error('Error fetching policies:', error);
+            }
+        };
+        fetchPolicies();
+    }, []); // Run on component mount
+
+    // Filter policies based on selected filters
+    useEffect(() => {
+        if (policies.length > 0) {
+            const filtered = policies.filter((policy) => {
+                return (
+                    (!selectedGroup || policy.groups.includes(selectedGroup)) && // 집단 필터
+                    (!selectedDetail || policy.title.includes(selectedDetail)) && // 세부 필터
+                    (!selectedPolicy || policy.category === selectedPolicy) // 카테고리 필터
+                );
+            });
+            setFilteredPolicies(filtered); // Set filtered policies
+        }
+    }, [policies, selectedGroup, selectedDetail, selectedAge, selectedPolicy]);
 
     return (
         <div className="evaluating-policy-container">
@@ -69,3 +91,4 @@ function EvaluatingPolicySearchResult() {
 }
 
 export default EvaluatingPolicySearchResult;
+

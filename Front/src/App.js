@@ -34,7 +34,7 @@ function App() {
                         <Route path="/custom-policy-search" element={<CustomPolicySearch />} /> {/* 필터링 */}
                         <Route path="/PolicyDetail/:id" element={<PolicyDetail />} />{/* 정책 게시글 */}
                         <Route path="/PolicyList" element={<PolicyList />} />
-                        <Route path="/Evaluatingresults" element={<EvaluatingPolicySearchResult />} /> {/* 정책 평가 결과 */}
+                        <Route path="/EvaluatingPolicySearchResult" element={<EvaluatingPolicySearchResult />} /> {/* 정책 평가 결과 */}
                         <Route path="/FilterButtons" element={<FilterButtons />} />
                         <Route path="/Policy/:id" element={<PolicyDetail />} />{/* 정책설명글 공통컴포넌트 */}
                         <Route path="/PolicyProposal" element={<PolicyProposal />} />
