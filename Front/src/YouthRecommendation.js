@@ -125,7 +125,6 @@ function YouthRecommendation() {
                         onClick={() => goToPolicyDetail(policy.id)} // 정책 ID 전달
                     >
                         <div className="card-header">
-                            <span>{policy.region || '수도권'}</span>
                             <span>{policy.title}</span>
                         </div>
                         <img

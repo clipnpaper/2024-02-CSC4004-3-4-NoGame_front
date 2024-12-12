@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0146c4cf-4a43-4df8-b0cc-924a2d187e34" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/src/YouthRecommendation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/YouthRecommendation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +119,7 @@
       <workItem from="1733297096725" duration="2435000" />
       <workItem from="1733965825793" duration="5602000" />
       <workItem from="1734002658163" duration="1000000" />
-      <workItem from="1734011303927" duration="3354000" />
+      <workItem from="1734011303927" duration="3708000" />
     </task>
     <servers />
   </component>
