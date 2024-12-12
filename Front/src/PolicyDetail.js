@@ -58,7 +58,7 @@ const PolicyDetail = () => {
     useEffect(() => {
         const fetchPolicy = async () => {
             try {
-                const response = await fetch(`${config.API_BASE_URL}policies/${id}/`);
+                const response = await fetch(`${config.API_BASE_URL}/policyapp/${id}/`);
                 if (!response.ok) {
                     throw new Error('Failed to fetch policy data');
                 }

@@ -1,5 +1,4 @@
 /*
-
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import PolicyDetail_Proposal from "./PolicyData_proposaleded";
@@ -315,7 +314,7 @@ const PolicyDetailProposal = () => {
                             <p><strong>{comment.author}</strong></p>
                             <p>{comment.text}</p>
                             <div className="comment-actions">
-                                <span
+                                {/*<span
                                     className="like-button"
                                     onClick={() => handleLikeComment(index)}
                                 >
@@ -326,7 +325,7 @@ const PolicyDetailProposal = () => {
                                     onClick={() => handleDislikeComment(index)}
                                 >
                                     👎 {comment.dislikes}
-                                </span>
+                                </span>*/}
                             </div>
                         </li>
                     ))}
