@@ -127,7 +127,7 @@ function YouthRecommendation() {
                             <span>{policy.title}</span>
                         </div>
                         <img
-                            src={policy.image || '/images/placeholder.png'} // 이미지 경로 설정
+                            src={policy.image} // 이미지 경로 설정
                             alt={policy.title}
                             className="card-image"
                         />

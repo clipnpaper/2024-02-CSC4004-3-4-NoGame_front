@@ -14,7 +14,7 @@ function EvaluatingPolicySearchResult() {
 
     // 정책 상세 페이지로 이동
     const goToPolicyDetail_Proposal = (policyId) => {
-        navigate(`/PolicyDetail_Proposal/${policyId}`);
+        navigate(`/PolicyDetail/${policyId}`);
     };
 
     // Fetch policy data from API
