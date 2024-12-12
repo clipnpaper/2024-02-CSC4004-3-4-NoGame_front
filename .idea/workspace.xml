@@ -8,41 +8,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/1.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/CustomPolicySearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/CustomPolicySearch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/CustomPolicySearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/CustomPolicySearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/EvaluatingPolicySearchResult.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/EvaluatingPolicySearchResult.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/EvaluatingPolicySearchResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/EvaluatingPolicySearchResult.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/src/FilterButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/FilterButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/Login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyData_Temp.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyData_Temp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyData_proposaleded.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyData_proposaleded.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyDetail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyDetail_Proposal.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyDetail_Proposal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/src/PolicyDetail_Proposal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyDetail_Proposal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyEditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyEditor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyEditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyEditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyIdeas.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyIdeas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyList.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyProposal.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyProposal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyProposal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyProposal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/Start.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/Start.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/Start.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/Start.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/YouthRecommendation.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/YouthRecommendation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/YouthRecommendation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/YouthRecommendation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/YouthResponse.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/YouthResponse.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/YouthResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/YouthResponse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/reportWebVitals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +124,7 @@
       <workItem from="1732962859589" duration="3759000" />
       <workItem from="1733297032420" duration="28000" />
       <workItem from="1733297096725" duration="2435000" />
+      <workItem from="1733965825793" duration="4412000" />
     </task>
     <servers />
   </component>
