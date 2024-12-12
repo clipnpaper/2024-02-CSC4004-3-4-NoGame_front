@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './YouthRecommendation.css';
 import PolicyData_Temp from './PolicyData_Temp'; // 정책 데이터 임포트
 import FilterButtons from './FilterButtons';
+import config from "./config";
 
 function YouthRecommendation() {
     const navigate = useNavigate();
@@ -44,10 +45,19 @@ function YouthRecommendation() {
         }
     };
 
+    // Fetch policy data from API
     useEffect(() => {
-        // 초기 데이터 설정
-        setDisplayedPolicies(PolicyData_Temp.slice(0, visibleCount));
-    }, [visibleCount]);
+        const fetchPolicies = async () => {
+            try {
+                const response = await fetch(`${config.API_BASE_URL}/policyapp/`); // Update with your actual API endpoint
+                const data = await response.json();
+                setDisplayedPolicies(data); // Set the fetched data as displayed policies
+            } catch (error) {
+                console.error('Error fetching policies:', error);
+            }
+        };
+        fetchPolicies();
+    }, []); // Run on component mount
 
     useEffect(() => {
         // 스크롤 이벤트 등록
@@ -103,7 +113,7 @@ function YouthRecommendation() {
                 <FilterButtons/> {/* 버튼 그룹 컴포넌트 */}
             </div>
             <div className="greeting2">
-                <p>상현님 카카오톡 정보에 맞춰 추천되고 있어요.</p>
+                <p>{username}님 카카오톡 정보에 맞춰 추천되고 있어요.</p>
             </div>
 
             {/* 검색 결과 또는 정책 카드 컨테이너 */}

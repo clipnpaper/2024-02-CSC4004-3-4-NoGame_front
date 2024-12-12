@@ -8,12 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/4.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/Front/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/PolicyDetail_Proposal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/PolicyDetail_Proposal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front/src/YouthRecommendation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/YouthRecommendation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +124,7 @@
       <workItem from="1733297096725" duration="2435000" />
       <workItem from="1733965825793" duration="5602000" />
       <workItem from="1734002658163" duration="1000000" />
-      <workItem from="1734011303927" duration="1966000" />
+      <workItem from="1734011303927" duration="3354000" />
     </task>
     <servers />
   </component>
